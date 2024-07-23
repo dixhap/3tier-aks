@@ -50,7 +50,7 @@ terraform apply
 
 4.  check dockerhub with images
     
-    ![Screenshot 2](<img width="881" alt="image" src="https://github.com/user-attachments/assets/8ad5d490-3473-4889-8f07-4b25a3c97114">)
+    ![Screenshot 2](![alt text](image-9.png))
     
 6. create helmchart
    
