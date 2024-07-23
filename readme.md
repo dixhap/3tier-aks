@@ -48,11 +48,15 @@ terraform apply
 
    ![Screenshot 2](![alt text](image-6.png))
 
-4. create helmchart
+4.  check dockerhub with images
+    
+    ![Screenshot 2](<img width="881" alt="image" src="https://github.com/user-attachments/assets/8ad5d490-3473-4889-8f07-4b25a3c97114">)
+    
+6. create helmchart
    
    ![Screenshot 2](![alt text](image-7.png))
 
-5. create namespace and install helmchart 
+7. create namespace and install helmchart 
 
    ![Screenshot 2](![alt text](image-8.png))
 
