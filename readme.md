@@ -1,21 +1,24 @@
 # My Project
 ================
 
-My project is a [brief description of your project].
+created AKS from terraform 
+main.tf file
 
-## Features
+terrform.tfvars contain variable valuse. 
 
-* [Feature 1]
-* [Feature 2]
-* [Feature 3]
+steps :
+
+terraform init
+terraform plan
+terraform apply
 
 ## Screenshots
 
 ### Screenshot 1
-![Screenshot 1](images/screenshot1.png)
+![Screenshot 1](![alt text](image.png))
 
 ### Screenshot 2
-![Screenshot 2](images/screenshot2.png)
+![Screenshot 2](![alt text](image-1.png))
 
 ## Getting Started
 
