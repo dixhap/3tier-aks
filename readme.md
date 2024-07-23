@@ -20,14 +20,42 @@ terraform apply
 ### Screenshot 2
 ![Screenshot 2](![alt text](image-1.png))
 
+### cluster created 
+![Screenshot 2](![alt text](image-2.png))
+
+
 ## Getting Started
 
-To get started with my project, follow these steps:
+3 tier application with frontend , backend and database in application\demoapp :
 
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+1. build frontend and push image to dockerhub
+   docker build -t frontend . 
+   docker tag frontend:latest dixhap/frontend:latest
+   docker push dixhap/frontend:latest
+   ![Screenshot 2](![alt text](image-4.png))
+
+
+2. build backend and push image to dockerhub
+   docker build -t backend . 
+   docker tag frontend:latest dixhap/backend:latest
+   docker push dixhap/backend:latest
+   ![Screenshot 2](![alt text](image-5.png))
+
+3. build database and push image to dockerhub
+   docker build -t database . 
+   docker tag database:latest dixhap/database:latest
+   docker push dixhap/database:latest
+
+   ![Screenshot 2](![alt text](image-6.png))
+
+4. create helmchart
+   
+   ![Screenshot 2](![alt text](image-7.png))
+
+5. create namespace and install helmchart 
+
+   ![Screenshot 2](![alt text](image-8.png))
 
 ## Contributing
 
-If you'd like to contribute to my project, please [follow these guidelines](CONTRIBUTING.md).
+[follow these guidelines](CONTRIBUTING.md).
