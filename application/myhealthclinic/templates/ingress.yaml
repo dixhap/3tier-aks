@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: myhealthclinic-1721743506
+spec:
+  rules:
+  - host: myhealthclinic.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: myhealthclinic
+            port:
+              number: 80

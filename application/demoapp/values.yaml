@@ -1,0 +1,14 @@
+frontend:
+  image:
+    repository: myhealthclinic/frontend
+    tag: latest
+
+backend:
+  image:
+    repository: myhealthclinic/backend
+    tag: latest
+
+database:
+  image:
+    repository: postgres
+    tag: 13
